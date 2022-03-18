@@ -17,4 +17,5 @@ fun main (args: Array<String>){
     var y = 8
 
     println(if (x > y) "x is greater than y" else "x is not greater than y")
+    println("Process done.)
 }
