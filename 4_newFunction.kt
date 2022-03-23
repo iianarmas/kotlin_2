@@ -5,7 +5,8 @@ fun main(args: Array<String>) {
     printSumOfTwo(10, 14)
 }
 
-fun printSumOfTwo(int1: Int, int2: Int) {
+fun printSumOfTwo(int1: Int, int2: Int): Unit {
+    // return Unit if it has no return value or simply omit it
 
     val result: Int = int1 + int2
 
