@@ -27,4 +27,8 @@ fun greatestValue(a: Int, b: Int): Int {
   // or
   
   return if (a > b) a else b
+    
+  // or
+    
+    fun greatestValue(a: Int, b: Int): Int = if (a > b) a else b
 }
